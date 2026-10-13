@@ -1,0 +1,21 @@
+name: SkinOutfitSwapper
+version: 1.0.0
+main: com.kodari.skinoutfitswapper.SkinOutfitSwapper
+api-version: '1.21'
+description: Pakeicia zaidejo skino rubus, islaikydamas originalia galva.
+commands:
+  skinoutfit:
+    description: Pritaiko arba grazina originalu skina.
+    usage: /skinoutfit [apply|reset]
+    permission: skinoutfit.use
+  gulagas:
+    description: Skiria gulago bausmes ir tvarko darbo zonas.
+    usage: /gulagas <zaidejas|nuimti <zaidejas>|spawn|zona <pavadinimas>>
+    permission: gulagas.admin
+permissions:
+  skinoutfit.use:
+    description: Leidzia keisti savo skino apranga.
+    default: true
+  gulagas.admin:
+    description: Leidzia skirti gulago bausmes ir tvarkyti zonas.
+    default: op

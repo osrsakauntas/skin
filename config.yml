@@ -1,0 +1,19 @@
+# Is sios Planet Minecraft skino parsisiuskite PNG faila ir idekite ji kaip plugins/SkinOutfitSwapper/outfit.png:
+# https://www.planetminecraft.com/skin/the-boy-in-the-striped-pajamas/
+outfit-image: outfit.png
+
+# MineSkin API raktas neprivalomas, bet rekomenduojamas didesniems uzklausimu kiekiams.
+# Rakta irasykite be zodzio "Bearer".
+mineskin:
+  api-key: ''
+  endpoint: https://api.mineskin.org/generate/upload
+
+# Pluginas cia issaugo zaideju originalius ir pritaikytus skinus.
+saved-skins: {}
+saved-models: {}
+active-skins: {}
+active-models: {}
+gulagas:
+  max-zone-blocks: 32768
+  prisoners: {}
+  zones: {}
