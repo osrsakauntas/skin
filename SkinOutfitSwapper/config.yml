@@ -1,0 +1,129 @@
+# Is sios Planet Minecraft skino parsisiuskite PNG faila ir idekite ji kaip plugins/SkinOutfitSwapper/outfit.png:
+# https://www.planetminecraft.com/skin/the-boy-in-the-striped-pajamas/
+outfit-image: outfit.png
+
+# MineSkin API raktas neprivalomas, bet rekomenduojamas didesniems uzklausimu kiekiams.
+# Rakta irasykite be zodzio "Bearer".
+mineskin:
+  api-key: ''
+  endpoint: https://api.mineskin.org/generate/upload
+
+# Pluginas cia issaugo zaideju originalius ir pritaikytus skinus.
+saved-skins: {}
+saved-models: {}
+active-skins: {}
+active-models: {}
+active-texture-values: {}
+active-texture-signatures: {}
+gulagas:
+  prisoners: {}
+  skin-restores: {}
+  active-texture-values: {}
+  active-texture-signatures: {}
+  active-skins: {}
+  active-models: {}
+  spawn:
+    world: world
+    x: -1024.6646429203968
+    y: 68.0
+    z: 1593.6923896966557
+    yaw: -97.526276
+    pitch: 16.823051
+  zones:
+    anglis:
+      name: anglis
+      world: world
+      min-x: 1015
+      min-y: 74
+      min-z: 122
+      max-x: 1025
+      max-y: 82
+      max-z: 129
+      coal: true
+      wood: true
+      spawn-blocks:
+      - COAL_ORE
+      - DEEPSLATE_COAL_ORE
+      mine-blocks:
+      - OAK_LOG
+      - STRIPPED_OAK_LOG
+      - SPRUCE_LOG
+      - STRIPPED_SPRUCE_LOG
+      - BIRCH_LOG
+      - STRIPPED_BIRCH_LOG
+      - JUNGLE_LOG
+      - STRIPPED_JUNGLE_LOG
+      - ACACIA_LOG
+      - STRIPPED_ACACIA_LOG
+      - DARK_OAK_LOG
+      - STRIPPED_DARK_OAK_LOG
+      - MANGROVE_LOG
+      - STRIPPED_MANGROVE_LOG
+      - CHERRY_LOG
+      - STRIPPED_CHERRY_LOG
+      - PALE_OAK_LOG
+      - STRIPPED_PALE_OAK_LOG
+      - CRIMSON_STEM
+      - STRIPPED_CRIMSON_STEM
+      - WARPED_STEM
+      - STRIPPED_WARPED_STEM
+      - COAL_ORE
+      - DEEPSLATE_COAL_ORE
+      regen-percent: 10
+      eligible-blocks: 792
+      generate-blocks: true
+    medis:
+      name: medis
+      mine-blocks:
+      - OAK_LOG
+      - SPRUCE_LOG
+      - BIRCH_LOG
+      - JUNGLE_LOG
+      - ACACIA_LOG
+      - DARK_OAK_LOG
+      - MANGROVE_LOG
+      - CHERRY_LOG
+      - PALE_OAK_LOG
+      - CRIMSON_STEM
+      - OAK_WOOD
+      - WARPED_STEM
+      spawn-blocks: []
+      generate-blocks: false
+      coal: false
+      wood: true
+      world: world
+      min-x: -1598
+      min-y: 69
+      min-z: -321
+      max-x: -1576
+      max-y: 71
+      max-z: -300
+      regen-percent: 50
+      eligible-blocks: 21
+    coal:
+      name: coal
+      mine-blocks:
+      - COAL_ORE
+      - DEEPSLATE_COAL_ORE
+      spawn-blocks:
+      - COBBLESTONE
+      - COAL_ORE
+      - DEEPSLATE_COAL_ORE
+      - CRYING_OBSIDIAN
+      - OBSIDIAN
+      - END_STONE
+      - DIRT
+      - ANDESITE
+      - DIORITE
+      generate-blocks: true
+      world: world
+      min-x: -1024
+      min-y: 68
+      min-z: 1586
+      max-x: -1017
+      max-y: 76
+      max-z: 1593
+      coal: true
+      wood: false
+      regen-percent: 25
+      eligible-blocks: 142
